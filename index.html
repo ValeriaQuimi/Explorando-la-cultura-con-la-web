@@ -34,8 +34,77 @@
             </section>
 
 
-            <section id= "conoce">
-                <p>Aqui conoce</p>
+
+            <section id="experiencia">
+                <h2>Recorrido por las salas</h2>
+
+                <div class="recorrido">
+
+                    <article class="etapa">
+                        <h3>Titulo 1</h3>
+                        <img src="foto_a_cambiar.jpg" alt="titulo de la foto">
+                        <p>pequeño parrafo</p>
+                    </article>
+
+                    <article class="etapa">
+                        <h3>Titulo 2</h3>
+                        <img src="foto_a_cambiar.jpg" alt="titulo">
+                        <p>pequeño parrafo</p>
+                    </article>
+
+
+                    <article class="etapa">
+                        <h3>Titulo 3</h3>
+                        <img src="foto_a_cambiar.jpg" alt="titulo">
+                        <p>pequeño parrafo</p>
+                    </article>
+
+                </div>
+
+                <h2>Voces del Museo</h2>
+                <p>opiniones</p>
+                <p>frases de los entrevistados</p>
+                <p>testimonios breves</p>
+
+
+
+                <form method="get" class="formulario">
+
+                    <h2>Cuéntanos tu experiencia</h2>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required autocomplete="name">
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" required autocomplete="email">
+
+                    <label for="atencion">¿Qué fue lo que más te llamo la atención?</label>
+                    <select id="atencion" name="atencion">
+                        <option value="historia">La historia del cacao</option>
+                        <option value="actividades">Las actividades</option>
+                        <option value="exhibiciones">Las exhibiciones</option>
+                        <option value="otro">Otro</option>
+                    </select>
+
+                    <label for="mensaje">Déjanos tu opinión</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" minlength="10" required></textarea>
+
+                    <label>¿Recomendarías visitar el Museo del Cacao?</label>
+
+                    <label>
+                        <input type="radio" name="recomendaria" value="si" required>
+                        Sí
+                    </label>
+
+                    <label>
+                        <input type="radio" name="recomendaria" value="no">
+                        No
+                    </label>
+
+                    <button type="submit">Enviar</button>
+                </form>
+
+
             </section>
 
 
