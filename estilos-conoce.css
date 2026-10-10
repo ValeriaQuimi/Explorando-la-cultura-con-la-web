@@ -1,0 +1,173 @@
+#conoce {
+    padding: 80px 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+#conoce h2 {
+    color: #553d2a;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#conoce .conoce-principal {
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
+    padding: 40px;
+
+    background-color: #a3b899;
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 40px;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+#conoce .conoce-principal h3 {
+    color: #553d2a;
+    font-size: 1.6rem;
+    margin-top: 0;
+}
+
+#conoce .conoce-principal p {
+    color: #2b2b2b;
+    line-height: 1.6;
+}
+
+#conoce .conoce-imagen {
+    margin: 0;
+}
+
+#conoce .conoce-imagen img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+}
+
+#conoce .conoce-doble {
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+#conoce .conoce-card {
+    background-color: #a3b8996a;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#conoce .conoce-card h3 {
+    color: #553d2a;
+    font-size: 1.6rem;
+    margin-top: 0;
+}
+
+#conoce .conoce-card p {
+    color: #2b2b2b;
+    line-height: 1.6;
+}
+
+#conoce .conoce-imagen-secundaria {
+    margin: 25px 0 0 0;
+}
+
+#conoce .conoce-imagen-secundaria img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+}
+
+#conoce .conoce-contenido {
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
+}
+
+#conoce .conoce-imagenes-contenido {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+#conoce .conoce-imagenes-contenido figure {
+    flex: 1;
+    margin: 0;
+}
+
+#conoce .conoce-imagenes-contenido img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+}
+
+/* Ubicación */
+
+#conoce .conoce-ubicacion {
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+    align-items: center;
+}
+
+#conoce .conoce-mapa iframe {
+    width: 100%;
+    height: 320px;
+    border: 0;
+    border-radius: 15px;
+    display: block;
+}
+
+
+/* Diseño adaptable para celulares */
+
+@media (max-width: 768px) {
+
+    #conoce {
+        padding: 40px 15px;
+    }
+
+    #conoce h2 {
+        font-size: 2rem;
+    }
+
+    #conoce .conoce-principal,
+    #conoce .conoce-doble,
+    #conoce .conoce-ubicacion {
+        grid-template-columns: 1fr;
+    }
+
+    #conoce .conoce-principal,
+    #conoce .conoce-card {
+        padding: 20px;
+    }
+
+    #conoce .conoce-imagenes-contenido {
+        flex-direction: column;
+    }
+
+    #conoce .conoce-imagen img,
+    #conoce .conoce-imagen-secundaria img,
+    #conoce .conoce-imagenes-contenido img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #conoce .conoce-mapa iframe {
+        max-width: 100%;
+    }
+}
