@@ -145,7 +145,7 @@ body {
         padding: 15px;
         box-sizing: border-box;
     }
-
+  }
     .navbar ul {
         gap: 15px;
         flex-wrap: wrap;
@@ -159,4 +159,4 @@ body {
     .intro-container p {
         font-size: 1.2rem;
     }
-}
+  }
