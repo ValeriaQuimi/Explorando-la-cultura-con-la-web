@@ -59,7 +59,7 @@
 }
 
 #conoce .conoce-card {
-    background-color: #a3b899;
+    background-color: #a3b8996a;
     border-radius: 20px;
     padding: 40px;
     box-sizing: border-box;
@@ -130,4 +130,44 @@
     border: 0;
     border-radius: 15px;
     display: block;
+}
+
+
+/* Diseño adaptable para celulares */
+
+@media (max-width: 768px) {
+
+    #conoce {
+        padding: 40px 15px;
+    }
+
+    #conoce h2 {
+        font-size: 2rem;
+    }
+
+    #conoce .conoce-principal,
+    #conoce .conoce-doble,
+    #conoce .conoce-ubicacion {
+        grid-template-columns: 1fr;
+    }
+
+    #conoce .conoce-principal,
+    #conoce .conoce-card {
+        padding: 20px;
+    }
+
+    #conoce .conoce-imagenes-contenido {
+        flex-direction: column;
+    }
+
+    #conoce .conoce-imagen img,
+    #conoce .conoce-imagen-secundaria img,
+    #conoce .conoce-imagenes-contenido img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #conoce .conoce-mapa iframe {
+        max-width: 100%;
+    }
 }
