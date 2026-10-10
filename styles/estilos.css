@@ -64,7 +64,7 @@ body {
 
   background-image:
     linear-gradient(rgba(251, 249, 245, 0.45), rgba(251, 249, 245, 0.45)),
-    url("fondo_museo.jpg");
+    url("images/fondo_museo.jpg");
 
   background-size: cover;
   background-position: center;
