@@ -9,10 +9,10 @@
 }
 
 #resultados h2 {
-  color: #553d2a;
-  font-size: 2.5rem;
-  margin: 10px 0 10px 0;
-  text-align: center;
+    color: #553d2a;
+    font-size: 2.5rem;
+    margin: 10px 0 10px 0;
+    text-align: center;
 }
 
 
@@ -35,18 +35,23 @@
 
 .icono {
     font-size: 35px;
+    text-align: center;
+    display: block;
+
 }
 
 .tarjeta-resultado h3 {
     color: #71845f;
     font-size: 40px;
     margin: 12px 0;
+    text-align: center;
 }
 
 .tarjeta-resultado p {
     color: #593b25;
     font-size: 16px;
     margin: 0;
+    text-align: center;
 }
 
 
