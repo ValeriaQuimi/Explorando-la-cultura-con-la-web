@@ -1,0 +1,64 @@
+.footer {
+    background-color: #71845f;
+    color: #ffffff;
+    padding: 50px 30px 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.footer-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    line-height: 1.6;
+}
+
+.footer-autor {
+    margin-bottom: 20px;
+}
+
+.footer-autor p {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    border-bottom: 1px solid transparent;
+}
+
+.footer a:hover {
+    border-bottom-color: #ffffff;
+}
+
+.footer-inferior {
+    max-width: 1100px;
+    margin: 30px auto 0;
+    padding-top: 15px;
+    border-top: 1px solid #d9e3cf;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .footer-contenido {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .footer {
+        padding: 35px 20px 15px;
+    }
+}
